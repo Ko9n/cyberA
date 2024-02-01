@@ -12,8 +12,15 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Archangelsk';
+  src: local('Archangelsk'),
+  url('./fonts/ofont.ru_Archangelsk.ttf') format('truetype');
+  font-weight: bold;
+}
+
 body{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Archangelsk', sans-serif;
 }
 
 .container{
